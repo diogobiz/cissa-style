@@ -23,4 +23,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-2
       - name: Deploy to S3
-        run: aws s3 sync ./out s3://cyssa-style
+        run: aws s3 sync ./out s3://cissa-style
